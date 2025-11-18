@@ -1,0 +1,45 @@
+.card {
+  width: 220px;
+  padding: 15px;
+  margin: 10px;
+  background: hsl(255, 95%, 16%);
+  border-radius: 10px;
+}
+button {
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-card {
+  width: 220px;
+  padding: 15px;
+  margin: 10px;
+  background: hsl(185, 98%, 50%);
+  border-radius: 10px;
+}
+
+.like-btn {
+  padding: 5px 10px;
+  margin-top: 10px;
+  background-color: hsl(0, 95%, 23%);
+  border: none;
+  border-radius: 5px;
+  color: rgb(219, 219, 219);
+  cursor: pointer;
+}
+
+.like-count {
+  margin-left: 10px;
+  font-weight: bold;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: hsl(34, 93%, 16%);
+  color: hsl(74, 100%, 61%);
+  padding: 20px;
+}
